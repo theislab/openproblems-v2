@@ -1,0 +1,3 @@
+type: file
+description: "Output spatial file with predicted proportions in adata.spatial.obsm['proportions_pred']"
+example: "TODO"

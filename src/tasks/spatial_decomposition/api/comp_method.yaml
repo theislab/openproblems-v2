@@ -1,0 +1,17 @@
+functionality:
+  namespace: spatial_decomposition/methods
+  info:
+    type: method
+    type_info:
+      label: "Method"
+      description: "Method for spatial decomposition"
+    arguments:
+      - name: "--input_sc"
+        __merge__: file_sc_input.yaml
+        required: true
+      - name: "--input_spatial"
+        __merge__: file_spatial_input.yaml
+        required: true
+      - name: "--output"
+        __merge__: "file_output.yaml"
+        required: true
