@@ -1,0 +1,36 @@
+task_id: perturbation_prediction
+task_name: Perturbation prediction
+summary: "FILL IN: A one line description of what this purpose of this task is."
+description: |
+  FILL IN: The task description and motivation you created earlier.
+authors:
+  - name: "Juge Yi"
+    roles: [ author, maintainer ]
+    props:
+      github: your-github-account
+      orcid: "0000-1111-2222-3333"
+  - name: "Alejandro Tejada"
+    roles: [ author, maintainer ]
+    props:
+      github: your-github-account
+      orcid: "0000-1111-2222-3333"
+  - name: "Lisa Sikkema"
+    roles: [ author, maintainer ]
+    props:
+      github: your-github-account
+      orcid: "0000-1111-2222-3333"
+  - name: "Irena Stoilova"
+    roles: [ author, maintainer ]
+    props:
+      github: your-github-account
+      orcid: "0000-1111-2222-3333"
+  - name: "Amir Ali M"
+    roles: [ author, maintainer ]
+    props:
+      github: your-github-account
+      orcid: "0000-1111-2222-3333"
+  - name: "Daniel Strobl"
+    roles: [ author, maintainer ]
+    props:
+      github: your-github-account
+      orcid: "0000-1111-2222-3333"
