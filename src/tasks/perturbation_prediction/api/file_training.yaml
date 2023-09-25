@@ -1,0 +1,18 @@
+type: file
+description: "Training set"
+example: "TODO"
+info:
+  label: Training
+  slots:
+    layers:
+      - type: integer
+        name: counts
+        description: Raw counts
+      - type: double
+        name: normalized
+        description: Normalized counts
+    uns:
+      - type: list
+        name: phenotypes
+        description: "A list of phenotype names in layers"
+        required: true

@@ -1,0 +1,24 @@
+functionality:
+1
+  namespace: <task_id>/methods
+2
+  info:
+3
+    type: method
+    type_info:
+4
+      label: "Method"
+5
+      description: "FILL IN: A description of what this type of component does."
+6
+  arguments:
+    - name: "--train"
+      __merge__: file_training.yaml
+      required: true
+    - name: "--test"
+      __merge__: file_test.yaml
+      required: true
+    - name: "--output"
+      __merge__: file_prediction.yaml
+      required: true
+      direction: output
